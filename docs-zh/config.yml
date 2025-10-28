@@ -1,0 +1,51 @@
+# 12-Factor Agents 中文文档配置
+
+# 文档元数据
+site:
+  title: "12-Factor Agents"
+  description: "构建可靠LLM应用的原则"
+  baseUrl: "/"
+  language: "zh-CN"
+  author: "12-Factor Agents Community"
+
+# 构建配置
+build:
+  outputDir: "dist"
+  assetsDir: "assets"
+  publicPath: "/"
+  
+# 术语管理
+terminology:
+  enabled: true
+  strictMode: true
+  dictionaryFile: "config/terminology.json"
+  
+# 导航配置
+navigation:
+  autoGenerate: true
+  maxDepth: 3
+  showBreadcrumbs: true
+  
+# 搜索配置
+search:
+  enabled: true
+  indexFile: "search-index.json"
+  segmentation: "jieba"
+  
+# 多媒体配置
+media:
+  imageOptimization: true
+  videoSupport: true
+  diagramRendering: "mermaid"
+  
+# 质量检查
+quality:
+  linkValidation: true
+  terminologyCheck: true
+  codeValidation: true
+  
+# 开发服务器
+dev:
+  port: 8080
+  host: "localhost"
+  livereload: true

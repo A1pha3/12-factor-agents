@@ -1,0 +1,122 @@
+[
+  {
+    "english": "Agent",
+    "chinese": "智能体",
+    "category": "technical",
+    "context": "AI系统中的自主决策单元",
+    "alternatives": ["代理", "智能代理"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Tool Calling",
+    "chinese": "工具调用",
+    "category": "technical", 
+    "context": "LLM调用外部函数的机制",
+    "alternatives": ["函数调用"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Prompt",
+    "chinese": "提示词",
+    "category": "technical",
+    "context": "给LLM的指令文本",
+    "alternatives": ["提示", "指令"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Context Window",
+    "chinese": "上下文窗口",
+    "category": "technical",
+    "context": "LLM能处理的最大文本长度",
+    "alternatives": ["上下文长度"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Thread",
+    "chinese": "对话线程",
+    "category": "technical",
+    "context": "一次完整的对话会话",
+    "alternatives": ["会话", "线程"],
+    "usage": "preferred"
+  },
+  {
+    "english": "State Management",
+    "chinese": "状态管理",
+    "category": "technical",
+    "context": "管理应用程序状态的方法",
+    "alternatives": [],
+    "usage": "preferred"
+  },
+  {
+    "english": "Human-in-the-Loop",
+    "chinese": "人机协作",
+    "category": "concept",
+    "context": "需要人类参与的AI工作流",
+    "alternatives": ["人在回路中", "人机交互"],
+    "usage": "preferred"
+  },
+  {
+    "english": "LLM",
+    "chinese": "大语言模型",
+    "category": "technical",
+    "context": "Large Language Model的缩写",
+    "alternatives": ["大模型"],
+    "usage": "preferred"
+  },
+  {
+    "english": "BAML",
+    "chinese": "BAML",
+    "category": "tool",
+    "context": "Boundary ML框架，保持英文",
+    "alternatives": [],
+    "usage": "keep_english"
+  },
+  {
+    "english": "TypeScript",
+    "chinese": "TypeScript",
+    "category": "tool",
+    "context": "编程语言名称，保持英文",
+    "alternatives": [],
+    "usage": "keep_english"
+  },
+  {
+    "english": "Structured Output",
+    "chinese": "结构化输出",
+    "category": "technical",
+    "context": "格式化的数据输出",
+    "alternatives": ["结构化数据"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Stateless",
+    "chinese": "无状态",
+    "category": "technical",
+    "context": "不保存状态信息的设计模式",
+    "alternatives": [],
+    "usage": "preferred"
+  },
+  {
+    "english": "Reducer",
+    "chinese": "归约器",
+    "category": "technical",
+    "context": "函数式编程中的状态转换函数",
+    "alternatives": ["减速器"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Workflow",
+    "chinese": "工作流",
+    "category": "concept",
+    "context": "一系列有序的工作步骤",
+    "alternatives": ["流程"],
+    "usage": "preferred"
+  },
+  {
+    "english": "Production Ready",
+    "chinese": "生产就绪",
+    "category": "concept",
+    "context": "可以在生产环境中使用的状态",
+    "alternatives": ["生产可用"],
+    "usage": "preferred"
+  }
+]

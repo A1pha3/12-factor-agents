@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - 12-Factor Agents</title>
+    <meta name="description" content="{{description}}">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/syntax-highlight.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Mermaid for diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    
+    <!-- Prism.js for syntax highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</head>
+<body>
+    <div class="layout">
+        <!-- 侧边栏导航 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1><a href="/">12-Factor Agents</a></h1>
+                <p>构建可靠LLM应用的原则</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                {{navigation}}
+            </nav>
+            
+            <!-- 搜索框 -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="搜索文档...">
+                <div id="search-results"></div>
+            </div>
+        </aside>
+        
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 面包屑导航 -->
+            <div class="breadcrumbs">
+                {{breadcrumbs}}
+            </div>
+            
+            <!-- 文档内容 -->
+            <article class="content">
+                {{content}}
+            </article>
+            
+            <!-- 页面导航 -->
+            <nav class="page-nav">
+                <div class="page-nav-prev">
+                    <a href="#" id="prev-page">← 上一页</a>
+                </div>
+                <div class="page-nav-next">
+                    <a href="#" id="next-page">下一页 →</a>
+                </div>
+            </nav>
+        </main>
+        
+        <!-- 右侧目录 -->
+        <aside class="toc">
+            <h3>目录</h3>
+            <div id="table-of-contents"></div>
+        </aside>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/toc.js"></script>
+    
+    <script>
+        // 初始化 Mermaid
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                primaryColor: '#3b82f6',
+                primaryTextColor: '#1f2937',
+                primaryBorderColor: '#e5e7eb',
+                lineColor: '#6b7280'
+            }
+        });
+        
+        // 初始化语法高亮
+        Prism.highlightAll();
+    </script>
+</body>
+</html>
